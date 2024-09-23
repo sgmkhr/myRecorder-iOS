@@ -7,23 +7,22 @@
 
 import UIKit
 
-class MyRecordersListViewController: UITableViewController {
+class RecordersViewController:  UITableViewController {
     
-    var items = [MyRecorder]()
-    var item: MyRecorder?
+    var items = [Recorder]()
+    var item: Recorder?
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return items.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RecorderCell", for: <#T##IndexPath#>)
         cell.textLabel?.text = items[indexPath.row].title
         return cell
     }
     
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-    }
+    
     
 }

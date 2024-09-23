@@ -9,27 +9,33 @@
 /* Begin PBXBuildFile section */
 		2104E81C2C9A2D8A00BFB419 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E81B2C9A2D8A00BFB419 /* AppDelegate.swift */; };
 		2104E81E2C9A2D8A00BFB419 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E81D2C9A2D8A00BFB419 /* SceneDelegate.swift */; };
-		2104E8232C9A2D8A00BFB419 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E8212C9A2D8A00BFB419 /* Main.storyboard */; };
 		2104E8252C9A2D8C00BFB419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2104E8242C9A2D8C00BFB419 /* Assets.xcassets */; };
 		2104E8282C9A2D8C00BFB419 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E8262C9A2D8C00BFB419 /* LaunchScreen.storyboard */; };
-		2104E8342C9C555F00BFB419 /* MyRecordersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E8332C9C555F00BFB419 /* MyRecordersListViewController.swift */; };
-		2104E8362C9F09C100BFB419 /* MyRecordsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E8352C9F09C100BFB419 /* MyRecordsListViewController.swift */; };
-		2104E83B2C9F0AE300BFB419 /* MyRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E83A2C9F0AE300BFB419 /* MyRecordViewController.swift */; };
-		2104E83D2C9F0D5C00BFB419 /* MyRecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E83C2C9F0D5C00BFB419 /* MyRecorderViewController.swift */; };
+		2104E8342C9C555F00BFB419 /* RecordersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E8332C9C555F00BFB419 /* RecordersViewController.swift */; };
+		2104E8362C9F09C100BFB419 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E8352C9F09C100BFB419 /* RecordsViewController.swift */; };
+		2104E83B2C9F0AE300BFB419 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E83A2C9F0AE300BFB419 /* RecordViewController.swift */; };
+		2104E83D2C9F0D5C00BFB419 /* RecorderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2104E83C2C9F0D5C00BFB419 /* RecorderViewController.swift */; };
+		2104E83F2CA16B4000BFB419 /* Records.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E83E2CA16B4000BFB419 /* Records.storyboard */; };
+		2104E8412CA16D5200BFB419 /* Recorders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E8402CA16D5200BFB419 /* Recorders.storyboard */; };
+		21EF6F922CA1811B0036B651 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF6F912CA1811B0036B651 /* Recorder.swift */; };
+		21EF6F942CA181750036B651 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF6F932CA181750036B651 /* InputType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2104E8182C9A2D8A00BFB419 /* myRecorder-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "myRecorder-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2104E81B2C9A2D8A00BFB419 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2104E81D2C9A2D8A00BFB419 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2104E8222C9A2D8A00BFB419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2104E8242C9A2D8C00BFB419 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2104E8272C9A2D8C00BFB419 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2104E8292C9A2D8C00BFB419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2104E8332C9C555F00BFB419 /* MyRecordersListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecordersListViewController.swift; sourceTree = "<group>"; };
-		2104E8352C9F09C100BFB419 /* MyRecordsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecordsListViewController.swift; sourceTree = "<group>"; };
-		2104E83A2C9F0AE300BFB419 /* MyRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecordViewController.swift; sourceTree = "<group>"; };
-		2104E83C2C9F0D5C00BFB419 /* MyRecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecorderViewController.swift; sourceTree = "<group>"; };
+		2104E8332C9C555F00BFB419 /* RecordersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordersViewController.swift; sourceTree = "<group>"; };
+		2104E8352C9F09C100BFB419 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		2104E83A2C9F0AE300BFB419 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		2104E83C2C9F0D5C00BFB419 /* RecorderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderViewController.swift; sourceTree = "<group>"; };
+		2104E83E2CA16B4000BFB419 /* Records.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Records.storyboard; sourceTree = "<group>"; };
+		2104E8402CA16D5200BFB419 /* Recorders.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recorders.storyboard; sourceTree = "<group>"; };
+		21EF6F912CA1811B0036B651 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
+		21EF6F932CA181750036B651 /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +70,8 @@
 			children = (
 				2104E81B2C9A2D8A00BFB419 /* AppDelegate.swift */,
 				2104E81D2C9A2D8A00BFB419 /* SceneDelegate.swift */,
-				2104E8392C9F0A2B00BFB419 /* MyRecorders */,
-				2104E8372C9F0A0900BFB419 /* MyRecords */,
+				2104E8392C9F0A2B00BFB419 /* recorders */,
+				2104E8372C9F0A0900BFB419 /* records */,
 				2104E8242C9A2D8C00BFB419 /* Assets.xcassets */,
 				2104E8262C9A2D8C00BFB419 /* LaunchScreen.storyboard */,
 				2104E8292C9A2D8C00BFB419 /* Info.plist */,
@@ -73,23 +79,26 @@
 			path = "myRecorder-iOS";
 			sourceTree = "<group>";
 		};
-		2104E8372C9F0A0900BFB419 /* MyRecords */ = {
+		2104E8372C9F0A0900BFB419 /* records */ = {
 			isa = PBXGroup;
 			children = (
-				2104E8352C9F09C100BFB419 /* MyRecordsListViewController.swift */,
-				2104E83A2C9F0AE300BFB419 /* MyRecordViewController.swift */,
+				2104E83E2CA16B4000BFB419 /* Records.storyboard */,
+				2104E8352C9F09C100BFB419 /* RecordsViewController.swift */,
+				2104E83A2C9F0AE300BFB419 /* RecordViewController.swift */,
 			);
-			path = MyRecords;
+			path = records;
 			sourceTree = "<group>";
 		};
-		2104E8392C9F0A2B00BFB419 /* MyRecorders */ = {
+		2104E8392C9F0A2B00BFB419 /* recorders */ = {
 			isa = PBXGroup;
 			children = (
-				2104E8212C9A2D8A00BFB419 /* Main.storyboard */,
-				2104E8332C9C555F00BFB419 /* MyRecordersListViewController.swift */,
-				2104E83C2C9F0D5C00BFB419 /* MyRecorderViewController.swift */,
+				2104E8402CA16D5200BFB419 /* Recorders.storyboard */,
+				2104E8332C9C555F00BFB419 /* RecordersViewController.swift */,
+				2104E83C2C9F0D5C00BFB419 /* RecorderViewController.swift */,
+				21EF6F912CA1811B0036B651 /* Recorder.swift */,
+				21EF6F932CA181750036B651 /* InputType.swift */,
 			);
-			path = MyRecorders;
+			path = recorders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +159,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2104E8412CA16D5200BFB419 /* Recorders.storyboard in Resources */,
 				2104E8282C9A2D8C00BFB419 /* LaunchScreen.storyboard in Resources */,
 				2104E8252C9A2D8C00BFB419 /* Assets.xcassets in Resources */,
-				2104E8232C9A2D8A00BFB419 /* Main.storyboard in Resources */,
+				2104E83F2CA16B4000BFB419 /* Records.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,11 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2104E83D2C9F0D5C00BFB419 /* MyRecorderViewController.swift in Sources */,
+				2104E83D2C9F0D5C00BFB419 /* RecorderViewController.swift in Sources */,
 				2104E81C2C9A2D8A00BFB419 /* AppDelegate.swift in Sources */,
-				2104E8362C9F09C100BFB419 /* MyRecordsListViewController.swift in Sources */,
-				2104E83B2C9F0AE300BFB419 /* MyRecordViewController.swift in Sources */,
-				2104E8342C9C555F00BFB419 /* MyRecordersListViewController.swift in Sources */,
+				2104E8362C9F09C100BFB419 /* RecordsViewController.swift in Sources */,
+				2104E83B2C9F0AE300BFB419 /* RecordViewController.swift in Sources */,
+				21EF6F942CA181750036B651 /* InputType.swift in Sources */,
+				2104E8342C9C555F00BFB419 /* RecordersViewController.swift in Sources */,
+				21EF6F922CA1811B0036B651 /* Recorder.swift in Sources */,
 				2104E81E2C9A2D8A00BFB419 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,14 +187,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2104E8212C9A2D8A00BFB419 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2104E8222C9A2D8A00BFB419 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2104E8262C9A2D8C00BFB419 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

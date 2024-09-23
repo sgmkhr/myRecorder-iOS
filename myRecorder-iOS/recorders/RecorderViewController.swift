@@ -8,10 +8,6 @@
 import UIKit
 import WebKit
 
-class MyRecorderViewController: UIViewController {
+class RecorderViewController: UIViewController {
     
-}
-
-class MyRecorder {
-    var title = "仮タイトル"
 }
