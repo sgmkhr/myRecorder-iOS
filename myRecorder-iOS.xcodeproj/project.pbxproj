@@ -18,7 +18,7 @@
 		2104E83F2CA16B4000BFB419 /* Records.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E83E2CA16B4000BFB419 /* Records.storyboard */; };
 		2104E8412CA16D5200BFB419 /* Recorders.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2104E8402CA16D5200BFB419 /* Recorders.storyboard */; };
 		21EF6F922CA1811B0036B651 /* Recorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF6F912CA1811B0036B651 /* Recorder.swift */; };
-		21EF6F942CA181750036B651 /* InputType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF6F932CA181750036B651 /* InputType.swift */; };
+		21EF6F942CA181750036B651 /* RecorderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EF6F932CA181750036B651 /* RecorderItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		2104E83E2CA16B4000BFB419 /* Records.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Records.storyboard; sourceTree = "<group>"; };
 		2104E8402CA16D5200BFB419 /* Recorders.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Recorders.storyboard; sourceTree = "<group>"; };
 		21EF6F912CA1811B0036B651 /* Recorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recorder.swift; sourceTree = "<group>"; };
-		21EF6F932CA181750036B651 /* InputType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputType.swift; sourceTree = "<group>"; };
+		21EF6F932CA181750036B651 /* RecorderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecorderItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 				2104E8332C9C555F00BFB419 /* RecordersViewController.swift */,
 				2104E83C2C9F0D5C00BFB419 /* RecorderViewController.swift */,
 				21EF6F912CA1811B0036B651 /* Recorder.swift */,
-				21EF6F932CA181750036B651 /* InputType.swift */,
+				21EF6F932CA181750036B651 /* RecorderItem.swift */,
 			);
 			path = recorders;
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 				2104E81C2C9A2D8A00BFB419 /* AppDelegate.swift in Sources */,
 				2104E8362C9F09C100BFB419 /* RecordsViewController.swift in Sources */,
 				2104E83B2C9F0AE300BFB419 /* RecordViewController.swift in Sources */,
-				21EF6F942CA181750036B651 /* InputType.swift in Sources */,
+				21EF6F942CA181750036B651 /* RecorderItem.swift in Sources */,
 				2104E8342C9C555F00BFB419 /* RecordersViewController.swift in Sources */,
 				21EF6F922CA1811B0036B651 /* Recorder.swift in Sources */,
 				2104E81E2C9A2D8A00BFB419 /* SceneDelegate.swift in Sources */,

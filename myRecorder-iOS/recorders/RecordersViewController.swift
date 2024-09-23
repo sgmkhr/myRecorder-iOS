@@ -23,6 +23,4 @@ class RecordersViewController:  UITableViewController {
         return cell
     }
     
-    
-    
 }

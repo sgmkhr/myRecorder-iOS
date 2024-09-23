@@ -8,6 +8,7 @@
 import Foundation
 
 class Recorder {
-    var title = ""
-    var inputTypes = [InputType]()
+    var title: String
+    var recorderItems: [RecorderItem]
+    var createdDate: Date
 }
